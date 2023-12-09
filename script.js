@@ -1,3 +1,5 @@
 window.onload = function() {
-    document.getElementById("bgm.mp3").play();
+    document.getElementById("maxwellcat").play();
+    let audio = document.getElementById("maxwellcat");
+    audio.volume = 0.2;
 }
